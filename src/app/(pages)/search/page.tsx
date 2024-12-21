@@ -15,7 +15,10 @@ export default async function Search({ searchParams }: any) {
         <div className="grid grid-cols-4">
           {data?.map((shoe: any) => {
             return (
-              <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <div
+                key={shoe.id}
+                className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+              >
                 <a href="#">
                   <img className="rounded-t-lg" src={shoe.image} alt="" />
                 </a>
