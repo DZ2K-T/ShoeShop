@@ -51,7 +51,7 @@ export default async function About() {
         <h1 className="text-center font-bold text-rose-600 mt-4">
           LIST SHOSE{" "}
         </h1>
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-4 gap-6">
           {data?.map((shoe: any) => {
             return (
               <div
