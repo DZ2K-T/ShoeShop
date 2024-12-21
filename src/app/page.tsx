@@ -1,5 +1,5 @@
 "use client";
-import { fecthData } from "./action/service/productApi";
+
 // import Image from "next/image";
 import { useEffect, useState } from "react";
 interface Ishoe {
